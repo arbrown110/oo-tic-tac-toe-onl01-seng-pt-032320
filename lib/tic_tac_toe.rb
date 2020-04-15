@@ -64,6 +64,8 @@ class TicTacToe
   end
   
   def full?
+    @board.count{|square| square != " " }
+  end
     
   def draw?
     
