@@ -6,7 +6,7 @@ class TicTacToe
     ]
    
     def intialize(board = nil)
-      @broad = board || Array.new(9," ")
+      @board = board || Array.new(9," ")
     end
   
     def display_board
@@ -22,7 +22,7 @@ class TicTacToe
     end
     
     def move (index,token)
-      =="O" || =="X"
+      @board[index] = token
       
 end
   
