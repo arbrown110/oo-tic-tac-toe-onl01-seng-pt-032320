@@ -2,7 +2,6 @@ class TicTacToe
  
   def initialize
   @board = Array.new(9, " ")
-end
   end
 
   WIN_COMBINATIONS = [
@@ -29,7 +28,10 @@ end
 
   def position_taken?(index)
     @board[index] != " "
-  end   
+  end
+  
+  def valid_move?
+    
 end
   
  
