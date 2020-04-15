@@ -1,8 +1,7 @@
 class TicTacToe 
-  Array.new(9," ")
   
   def intialize 
-    @broad =[]
+    @broad = Array.new(9," ")
   end  
   
   WIN_COMBINATIONS = [
